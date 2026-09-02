@@ -38,15 +38,18 @@ It is a deep learning model that generates 2D Pokémon sprites directly from Pok
 
 ---
 
-## Installation
+## Requirements
 
-Clone the repository and install the required dependencies:
+To run the training pipeline and demo interface, you need Python and the following packages:
 
-```bash
-git clone [https://github.com/fabiodellaquila/Text-to-Image-Synthesis.git](https://github.com/fabiodellaquila/Text-to-Image-Synthesis.git)
-cd Text-to-Image-Synthesis
-pip install torch torchvision transformers gradio pytorch-msssim pillow pandas
-```
+- `torch` and `torchvision`
+- `transformers`
+- `gradio`
+- `pytorch-msssim`
+- `pillow`
+- `pandas`
+
+A CUDA-compatible GPU is recommended for training and fast inference.
 
 ---
 
